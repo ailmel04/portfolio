@@ -11,13 +11,13 @@ const Footer = () => {
                 <img src={footer_logo} alt="" />
                 <p>Innovative and detail-oriented UI/UX Engineer and Front-End Developer with over 16 years of experience </p>
             </div>
-            <div className="footer-top-right">
+            {/* <div className="footer-top-right">
                 <div className="footer-email-input">
                     <img src={user_icon} alt="" />
                     <input type="email" placeholder='Enter your email' />
                 </div>
                 <div className="footer-subscribe">Subscribe</div>
-            </div>
+            </div> */}
         </div>
         <hr />
         <div className="footer-bottom">
