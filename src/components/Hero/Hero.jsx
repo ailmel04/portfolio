@@ -11,7 +11,7 @@ const Hero = () => {
         <p>Innovative and detail-oriented UI/UX Engineer and Front-End Developer with over 16 years of experience designing and implementing intuitive user interfaces and electronic forms. Strong expertise in HTML, CSS, JavaScript, and UI/UX best practices, with expertise in modular application development, accessibility, and performance optimization. Strong advocate for AI-assisted development and workflow automation.  Adept at problem-solving, automation, and enhancing user experiences across web-based applications. Passionate about crafting refined digital experiences for global audiences.</p>
         <div className="hero-action">
             <div className="hero-connect"><AnchorLink className="anchor-link" offset={50} href="#contact">Connect with Me!</AnchorLink></div>
-            <div className="hero-cv">My CV</div>
+            {/* <div className="hero-cv">My CV</div> */}
         </div>
     </div>
   )

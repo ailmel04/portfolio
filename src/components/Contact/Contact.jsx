@@ -1,6 +1,7 @@
 import React from 'react'
 import './Contact.css'
 import theme_pattern from '../../assets/theme_pattern.svg'
+import linkedin_icon from '../../assets/linkedin-brands.svg'
 import mail_icon from '../../assets/mail_icon.svg'
 import location_icon from '../../assets/location_icon.svg'
 import call_icon from '../../assets/call_icon.svg'
@@ -42,6 +43,10 @@ const Contact = () => {
                 <h1>Let's Talk</h1>
                 <p>I'm currently available to take on new projects, so feel free to contact me!</p>
                 <div className="contact-details">
+                    <div className="contact-detail linkedin">
+                        <img src={linkedin_icon} alt="" />
+                        <p><a href="https://www.linkedin.com/in/ailmelclemente">LinkedIn Profile</a></p>
+                    </div>
                     <div className="contact-detail">
                         <img src={mail_icon} alt="" />
                         <p>ailmel.clemente@gmail.com</p>
